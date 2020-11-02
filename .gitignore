@@ -1,0 +1,8 @@
+# Build related
+build/
+
+# Npm dependencies
+node_modules/
+
+# OpenZeppelin
+.openzeppelin/unknown-*.json

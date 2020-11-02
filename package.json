@@ -1,0 +1,28 @@
+{
+  "name": "upgradable-contract-solidity",
+  "version": "1.0.0",
+  "description": "Demonstration on how to upgrade a contract in solidity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+    "ganache": "ganache-cli --gasLimit 0x1fffffffffffff --gasPrice 1 --defaultBalanceEther 1000000000 --allowUnlimitedContractSize true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeBlack220/upgradable-contract-solidity.git"
+  },
+  "author": "Yichun Yan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeBlack220/upgradable-contract-solidity/issues"
+  },
+  "homepage": "https://github.com/JoeBlack220/upgradable-contract-solidity#readme",
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.2.1",
+    "chai": "^4.2.0",
+    "typechain": "^3.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/upgrades": "^2.8.0"
+  }
+}
